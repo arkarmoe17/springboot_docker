@@ -3,6 +3,9 @@
 #Docker 
 >Docker is an open source project that automates the deployment of software application inside container
 
+#Maven install
+>mvn clean install
+
 #Docker image 
 >docker images
 
