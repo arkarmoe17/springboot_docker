@@ -1,7 +1,7 @@
 # springboot_docker_test
 
 #Docker 
-Docker is an open source project that automates the deployment of software application inside container
+>Docker is an open source project that automates the deployment of software application inside container
 
 #Docker image 
 >docker images
@@ -15,11 +15,11 @@ Docker is an open source project that automates the deployment of software appli
 #Run the docker project
 >docker run -p 8080:8080 springboot_docker_test
 
+#Remove the docker repository
+>docker rmi <repository_id>
+
+#Stop the container_id
+>docker stop <container_id>
+
 #Remove the container
->docker rmi <container_id>
-
-#Stop the docker image
->docker stop <image_id>
-
-#Remove the docker image
->docker rm <image_id>
+>docker rm <container_id>
