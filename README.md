@@ -23,12 +23,15 @@
 
 #Stop the container
 >docker container stop <container_id>
+
 >docker stop <container_id>
 
 #Start the container
 >docker container start <container_id>
+
 >docker start <container_id>
 
 #Remove the container
 >docker container rm <container_id>
+
 >docker rm <container_id>
