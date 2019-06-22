@@ -18,8 +18,11 @@
 #Remove the docker repository
 >docker rmi <repository_id>
 
-#Stop the container_id
+#Stop the container
 >docker stop <container_id>
+
+#Start the container
+>docker start <container_id>
 
 #Remove the container
 >docker rm <container_id>
