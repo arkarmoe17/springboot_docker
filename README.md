@@ -35,3 +35,6 @@
 >docker container rm <container_id>
 
 >docker rm <container_id>
+
+#Check the logs
+>docker container logs -f <container-id>
